@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    letter-spacing: .2rem;
+    background-color: #29BDE0;
+    
+}
+
+
+.background{
+  /*雪碧图*/
+    background: url(img/img.png) no-repeat center center;
+}
+.header{
+    /*头部盒子布局*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    margin: 0 1rem;
+    font-size: 2.2rem;
+    color: white;
+    background-color: #29BDE0;
+}
+.icon{
+    /*头部图标*/
+    background-size: 189.7px 115.5px;
+}
+.content{
+    /*头部内容*/
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    position: relative;
+    background-color: #B9E9F5;  
+}
+.icon_1{
+    /*内容图标1*/
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    background-size: 162.6px 99px;
+}
+.text{
+    /*内容字体设置*/
+    margin-left: 3rem;
+    font-size: 1.8rem;
+}
+.icon_2{
+    /*内容图标2*/
+    position: absolute;
+    bottom: -1.3rem;
+    left: 5rem;
+    width: 100%;
+    color: #B9E9F5;
+    background-color: #29BDE0;
+}
+.texe_1{
+    /*内容字体设置1*/ 
+    padding-left: 5rem;
+    padding-top: 2rem;
+    height: 6rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #29BDE0; 
+}
+.wrapper{
+    /*中部盒子布局*/
+    display:flex;
+    flex-flow:column nowrap;
+    margin-top: 14rem;
+    margin-bottom: 12rem;
+    height: 45rem;
+    width: 100%;
+    
+}
+.line1{
+    /*中部第一行设置*/
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content:space-around;
+    height: 12rem;
+    align-items: center;
+}
+.box_small{
+    /*中部小盒子设置*/
+    height: 8rem;
+    width: 8rem;
+    border: .3rem solid white;
+    position: relative;
+
+}
+.box_small:hover .icon_3{
+    /*hover控制图标显示与隐藏*/
+    display: block;
+}
+.box_up{
+    /*小盒子的上部设置*/
+    height: 5.7rem;
+    line-height: 5.4rem;
+    margin: 0;
+    text-align: center;
+    font-size: 2rem;
+    background-color:  #F5C97B;
+}
+.box_bottom{
+    /*小盒子的下部设置*/
+    height: 1.7rem;
+    line-height: 1.7rem;
+    margin: 0;
+    text-align: center;
+    font-size: 1.6rem;
+    color: white;
+    background-color: #83B09A;
+}
+.icon_3{
+    /*需要显示与隐藏的图标*/
+    display: none;
+    position:absolute;
+    top: 8.4rem;
+    left:50%;
+    transform:translateX(-50%);
+    margin: 0;
+    background-size: 162.6px 99px;
+}
+.footer{
+    /*尾部盒子布局*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    width: 100%;
+    background-color: #29BDE0;
+}
+.footer_text {
+    /*尾部按钮设置*/
+    
+    width: 25rem;
+    height: 4rem;
+    line-height: 4rem;
+    border: none;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    background-color: #FBB435;
+}
+
+.footer_text:hover{
+    color: white;
+    background-color: #4CAF50;  
+}

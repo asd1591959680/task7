@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family:"黑体";
+  
+}
+.background{
+    /*雪碧图*/
+    background: url(img/img.png) no-repeat center;
+}
+.header{
+    /*头部布局*/
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4rem;
+    width: 100%;
+    padding:1rem 1rem;
+    border-bottom:.2rem solid #57c6df ;
+    background-color: #29BDE0;
+}
+.icon_1{
+    /*图标1*/
+    height:27px;
+    width:30.6px;
+    background-size: 162.6px 99px;
+}
+.icon_2{
+    /*图标2*/
+    height:26.4px;
+    width:24px;
+    background-size: 162.6px 99px;
+}
+.text_1{
+    /*头部文本*/
+    flex: auto;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+.warpper{
+    /*容器布局*/
+    padding: 0 10%;
+    height: 35rem;
+    margin-top: 4rem;
+    text-align: center;
+    background:url(img/j3.png) no-repeat ;
+    background-size: 17.5rem 10.2rem;
+    background-position:center 2rem;
+    background-color: #29BDE0;
+}
+.text_2{
+    /*容器文本*/
+    padding-top: 8.5rem;
+    font-size: 2.5rem;
+    color: white;
+} 
+.text_3{
+    /*容器文本*/
+    margin: 2rem 0;
+    line-height:2.5rem;/*行间距*/
+    text-align:justify;
+    font-size: 2rem;
+    color: #FFC865;
+    font-weight: 600;
+} 
+.text_4{
+    /*容器文本*/
+    text-align: justify;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.wd{
+    /*文字距离*/
+    margin-right: 2rem;
+}
+.content{
+    /*内容布局*/
+    border-bottom: .1rem solid #d6d3d3;
+    padding-left: 10%;
+    font-size: 1.5rem;
+    color: #a09f9f; 
+    background-color: white;
+}
+
+.text_6{
+    /*内容文本*/
+    font-size: 2rem;
+    color: #312f2f;
+}
+.text_7{
+    /*内容文本*/
+    float: right;
+    padding-right: 12%;
+    margin: .5rem 0;
+    font-size: 1.2rem;
+    color: #c0bbbb;
+}
+.footer{
+    /*尾部布局*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 7rem;
+    width: 100%;
+    font-size: 2rem;
+    background:rgba(41,189,224, 0.5);
+    color: white;
+    
+}
+.button_1{
+    /*尾部按钮1*/
+    height: 4rem;
+    width: 12rem;
+    border: none;
+    background-color: #F66F6F;
+    color: white;
+    
+    
+}
+.button_2{
+    /*尾部按钮2*/
+    height: 4rem;
+    width: 12rem;
+    border: none;
+    background-color: #FBB435;
+    color: white;
+   
+    
+}
